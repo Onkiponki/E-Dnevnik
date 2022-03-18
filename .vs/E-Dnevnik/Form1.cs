@@ -21,6 +21,10 @@ namespace E_Dnevnik
         {
             MessageBox.Show("caoo");
             MessageBox.Show("stas desava?");
+            MessageBox.Show("stas desava?");
+            MessageBox.Show("stas desava?");
+            MessageBox.Show("stas desava?");
+
         }
     }
 }

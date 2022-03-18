@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Dnevnik", "E-Dnevnik.csproj", "{62016B54-03CD-4704-81DD-6ECFA7E2DF52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsDnevnik", "EsDnevnik.csproj", "{62016B54-03CD-4704-81DD-6ECFA7E2DF52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
