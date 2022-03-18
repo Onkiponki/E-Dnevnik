@@ -8,3 +8,5 @@ D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\EsDnevn
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\EsDnevnik.csproj.CoreCompileInputs.cache
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E-Dnevnik.exe
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E-Dnevnik.pdb
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Meni.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Login.resources

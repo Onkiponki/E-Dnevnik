@@ -146,4 +146,4 @@ values ('Teodor','Djelic','Adr1','123456789','teodor@gmail.com','12346',1)
 
 update Osoba set ime = '{ime.Text}', prezime = '{prezime.Text}', adresa = '{adresa.Text}', jmbg = '{jmbg.Text}', email = '{email.Text}', pass = '{password.Text}', uloga = {uloga.Text} where id=5
 
-select * from Osoba
+select pass from Osoba where id = 4
