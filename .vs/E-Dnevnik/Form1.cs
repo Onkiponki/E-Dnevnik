@@ -16,5 +16,11 @@ namespace E_Dnevnik
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("caoo");
+            MessageBox.Show("stas desava?");
+        }
     }
 }
