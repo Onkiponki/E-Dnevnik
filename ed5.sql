@@ -141,3 +141,9 @@ insert into Ocena(raspodela_id,ocena,ucenik_id) values
 (5,5,5),
 (5,4,6),
 (5,5,7)
+insert into Osoba
+values ('Teodor','Djelic','Adr1','123456789','teodor@gmail.com','12346',1)
+
+update Osoba set ime = '{ime.Text}', prezime = '{prezime.Text}', adresa = '{adresa.Text}', jmbg = '{jmbg.Text}', email = '{email.Text}', pass = '{password.Text}', uloga = {uloga.Text} where id=5
+
+select * from Osoba
