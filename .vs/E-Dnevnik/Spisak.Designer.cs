@@ -1,7 +1,7 @@
 ﻿
 namespace E_Dnevnik
 {
-    partial class Form1
+    partial class Spisak
     {
         /// <summary>
         /// Required designer variable.

@@ -41,12 +41,13 @@ namespace E_Dnevnik
                 SqlDataAdapter noviAdapter = new SqlDataAdapter($"select pass from Osoba where id = {ime.Text}", veza);
                 DataTable podatak = new DataTable();
                 noviAdapter.Fill(podatak);
-                if(pass.Text == podatak.Rows[0]["pass"].ToString())
+                if (pass.Text == podatak.Rows[0]["pass"].ToString())
                 {
                     Meni forma = new Meni();
                     this.Hide();
                     forma.Show();
                 }
+                else MessageBox.Show("Pogresan pass");
             }
         }
     }
