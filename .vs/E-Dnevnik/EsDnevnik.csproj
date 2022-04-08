@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Sifarnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifarnik.Designer.cs">
+      <DependentUpon>Sifarnik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Spisak.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Sifarnik.resx">
+      <DependentUpon>Sifarnik.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Spisak.resx">
       <DependentUpon>Spisak.cs</DependentUpon>
     </EmbeddedResource>

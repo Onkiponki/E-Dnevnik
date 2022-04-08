@@ -2,7 +2,6 @@ D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\bin\Debug\E-Dnevn
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\bin\Debug\E-Dnevnik.exe
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\bin\Debug\E-Dnevnik.pdb
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\EsDnevnik.csproj.AssemblyReference.cache
-D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Form1.resources
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Properties.Resources.resources
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\EsDnevnik.csproj.GenerateResource.cache
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\EsDnevnik.csproj.CoreCompileInputs.cache
@@ -10,3 +9,5 @@ D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E-Dnevn
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E-Dnevnik.pdb
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Meni.resources
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Login.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Sifarnik.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Spisak.resources

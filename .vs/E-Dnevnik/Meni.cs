@@ -33,5 +33,29 @@ namespace E_Dnevnik
         {
             Application.Exit();
         }
+
+        private void smeroviToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik forma = new Sifarnik("Smer");
+            forma.Show();
+        }
+
+        private void skolskeGodineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik forma = new Sifarnik("Skolska_godina");
+            forma.Show();
+        }
+
+        private void predmetiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik forma = new Sifarnik("Predmet");
+            forma.Show();
+        }
+
+        private void osobeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik forma = new Sifarnik("Osoba");
+            forma.Show();
+        }
     }
 }
