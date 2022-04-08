@@ -20,11 +20,16 @@ namespace E_Dnevnik
 
         private void osobaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form1 forma = new Form1();
+            Spisak forma = new Spisak();
             forma.Show();
         }
 
         private void Meni_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
