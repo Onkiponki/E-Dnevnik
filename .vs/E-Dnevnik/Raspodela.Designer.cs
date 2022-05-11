@@ -147,6 +147,7 @@ namespace E_Dnevnik
             this.levo.TabIndex = 22;
             this.levo.Text = "<";
             this.levo.UseVisualStyleBackColor = true;
+            this.levo.Click += new System.EventHandler(this.levo_Click);
             // 
             // Insert
             // 
@@ -156,6 +157,7 @@ namespace E_Dnevnik
             this.Insert.TabIndex = 23;
             this.Insert.Text = "Insert";
             this.Insert.UseVisualStyleBackColor = true;
+            this.Insert.Click += new System.EventHandler(this.Insert_Click);
             // 
             // update
             // 
@@ -165,6 +167,7 @@ namespace E_Dnevnik
             this.update.TabIndex = 24;
             this.update.Text = "Update";
             this.update.UseVisualStyleBackColor = true;
+            this.update.Click += new System.EventHandler(this.update_Click);
             // 
             // Delete
             // 
@@ -174,6 +177,7 @@ namespace E_Dnevnik
             this.Delete.TabIndex = 25;
             this.Delete.Text = "Delete";
             this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // desno
             // 
@@ -183,6 +187,7 @@ namespace E_Dnevnik
             this.desno.TabIndex = 26;
             this.desno.Text = ">";
             this.desno.UseVisualStyleBackColor = true;
+            this.desno.Click += new System.EventHandler(this.desno_Click);
             // 
             // levlje
             // 
@@ -192,6 +197,7 @@ namespace E_Dnevnik
             this.levlje.TabIndex = 27;
             this.levlje.Text = "<<";
             this.levlje.UseVisualStyleBackColor = true;
+            this.levlje.Click += new System.EventHandler(this.levlje_Click);
             // 
             // desnje
             // 
@@ -201,6 +207,7 @@ namespace E_Dnevnik
             this.desnje.TabIndex = 28;
             this.desnje.Text = ">>";
             this.desnje.UseVisualStyleBackColor = true;
+            this.desnje.Click += new System.EventHandler(this.desnje_Click);
             // 
             // Raspodela
             // 

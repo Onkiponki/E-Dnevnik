@@ -57,5 +57,11 @@ namespace E_Dnevnik
             Sifarnik forma = new Sifarnik("Osoba");
             forma.Show();
         }
+
+        private void raspodelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Raspodela form1 = new Raspodela();
+            form1.Show();
+        }
     }
 }
