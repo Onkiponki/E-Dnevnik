@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Raspodela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raspodela.Designer.cs">
+      <DependentUpon>Raspodela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sifarnik.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Raspodela.resx">
+      <DependentUpon>Raspodela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sifarnik.resx">
       <DependentUpon>Sifarnik.cs</DependentUpon>
     </EmbeddedResource>

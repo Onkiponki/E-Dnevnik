@@ -13,9 +13,10 @@ namespace E_Dnevnik
 {
     public partial class Sifarnik : Form
     {
-        SqlConnection veza;
         SqlDataAdapter adapter;
-        
+        DataTable podaci;
+
+
         string kogaZovem;
         public Sifarnik(string tabela)
         {
@@ -27,7 +28,7 @@ namespace E_Dnevnik
         {
             string naredba = $"select * from {kogaZovem}";
             adapter = new SqlDataAdapter(naredba,Konekcija.zakonektuj());
-            DataTable podaci = new DataTable();
+            podaci = new DataTable();
             adapter.Fill(podaci);
             dataGridView1.DataSource = podaci;
 
@@ -35,6 +36,13 @@ namespace E_Dnevnik
 
         private void okay_Click(object sender, EventArgs e)
         {
+            DataTable promene = podaci.GetChanges();
+            adapter.UpdateCommand = new SqlCommandBuilder(adapter).GetUpdateCommand();
+            if(promene != null)
+            {
+                adapter.Update(promene);
+                
+            }
             this.Close();
         }
     }
