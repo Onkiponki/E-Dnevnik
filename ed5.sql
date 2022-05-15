@@ -1,4 +1,4 @@
-use master
+use ednevnik
 create database ednevnik
 use ednevnik
 
@@ -147,3 +147,9 @@ values ('Teodor','Djelic','Adr1','123456789','teodor@gmail.com','12346',1)
 update Osoba set ime = '{ime.Text}', prezime = '{prezime.Text}', adresa = '{adresa.Text}', jmbg = '{jmbg.Text}', email = '{email.Text}', pass = '{password.Text}', uloga = {uloga.Text} where id=5
 
 select pass from Osoba where id = 4
+
+select Upisnica.id as id, ime + ' ' + prezime as Naziv, Osoba.id as Ucenik from Upisnica join Osoba on Osoba.id = Upisnica.osoba_id where odeljenje_id= 1
+
+select Osoba.id, ime + ' ' + prezime as Naziv from Osoba join Upisnica on Osoba.id = Upisnica.osoba_id where uloga = 1
+
+select Upisnica.id as id, ime + ' ' + prezime as Naziv, Osoba.id as Ucenik from Upisnica join Osoba on Osoba.id = Upisnica.osoba_id

@@ -12,3 +12,6 @@ D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevn
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Sifarnik.resources
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Spisak.resources
 D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Raspodela.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Glavna2.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Upisnica.resources
+D:\1Pavle Back-up\1PavleSkolskiRad\Baze\EDnevnik\.vs\E-Dnevnik\obj\Debug\E_Dnevnik.Ocena.resources

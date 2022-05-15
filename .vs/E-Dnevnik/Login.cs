@@ -43,7 +43,7 @@ namespace E_Dnevnik
                 noviAdapter.Fill(podatak);
                 if (pass.Text == podatak.Rows[0]["pass"].ToString())
                 {
-                    Meni forma = new Meni();
+                    Glavna2 forma = new Glavna2();
                     this.Hide();
                     forma.Show();
                 }
