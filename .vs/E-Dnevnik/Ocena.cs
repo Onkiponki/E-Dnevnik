@@ -33,7 +33,7 @@ namespace E_Dnevnik
             cmbGodina.DataSource = godina;
             cmbGodina.ValueMember = "id";
             cmbGodina.DisplayMember = "naziv";
-            cmbGodina.SelectedValue = 2;
+            cmbGodina.SelectedValue = 2s';;;;'
         }
     }
 }
